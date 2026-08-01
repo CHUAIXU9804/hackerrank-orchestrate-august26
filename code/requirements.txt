@@ -1,0 +1,8 @@
+# Groq — primary: routing decisions (llama-3.3-70b) + voice ASR (whisper-large-v3)
+groq>=0.11.0
+# Gemini — image OCR/caption only (gemini-3.1-flash-lite)
+google-genai>=0.3.0
+# Local evidence retrieval (TF-IDF) — no API needed
+scikit-learn>=1.3.0
+# Convenience .env loading (optional; config.py has a stdlib fallback)
+python-dotenv>=1.0.0
