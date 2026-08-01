@@ -128,3 +128,13 @@ Before submitting, confirm:
 - `output.csv` has one row per row in `dataset/messages.csv`.
 - `output.csv` has the exact required columns in the exact required order.
 - Your runnable code and setup instructions are included in `code.zip`.
+
+**Design Pipeline**
+1.	Ingest and index data into look up tables, using foreign keys like user_id, group_id to connect with other CSV files
+2.	Convert media such as image (Gemini OCR and caption) and audio or voice notes (Groq Whisper) into text using LLM, so everything becomes one effective_text, so no need to process modality in the later stage. Cached by media_id
+3.	Context Assembly – Compute the personalization signals – is quiet hours active, is group muted, is the sender an admin, is the user opted out of promos, and using combination of scam keywords or scam_patterns to detect if it’s a scam
+4.	Then evidence retrieval – Check the past messages, find the most similar past messages for this same user (local TF-IDF), and how they reacted in the past, for example, they opened, muted, dismissed, reported, their reaction history is the strongest personalization signal
+5.	Rules Gate: Hard Mute the umambiguous scams Ex. fake domain phishing, payment exfiltration patterns before the LLM runs, to avoid prompt injection defense
+6.	For everything else, the Groq LLM model makes the nuanced call, reasoning over the text, context, past evidence, and return the response in JSON format
+7.	Validate and write results based on the input data into the output
+
