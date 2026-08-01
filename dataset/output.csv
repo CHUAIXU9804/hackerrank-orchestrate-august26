@@ -1,111 +1,111 @@
 message_id,action,message_type,reason,confidence,evidence_message_ids
-msg_023,,,,,
-msg_091,,,,,
-msg_090,,,,,
-msg_048,,,,,
-msg_040,,,,,
-msg_075,,,,,
-msg_005,,,,,
-msg_104,,,,,
-msg_069,,,,,
-msg_107,,,,,
-msg_070,,,,,
-msg_003,,,,,
-msg_099,,,,,
-msg_008,,,,,
-msg_092,,,,,
-msg_060,,,,,
-msg_004,,,,,
-msg_030,,,,,
-msg_045,,,,,
-msg_052,,,,,
-msg_009,,,,,
-msg_071,,,,,
-msg_016,,,,,
-msg_065,,,,,
-msg_038,,,,,
-msg_086,,,,,
-msg_014,,,,,
-msg_094,,,,,
-msg_029,,,,,
-msg_105,,,,,
-msg_002,,,,,
-msg_010,,,,,
-msg_078,,,,,
-msg_013,,,,,
-msg_018,,,,,
-msg_044,,,,,
-msg_032,,,,,
-msg_106,,,,,
-msg_006,,,,,
-msg_109,,,,,
-msg_108,,,,,
-msg_019,,,,,
-msg_088,,,,,
-msg_056,,,,,
-msg_027,,,,,
-msg_050,,,,,
-msg_083,,,,,
-msg_063,,,,,
-msg_033,,,,,
-msg_061,,,,,
-msg_020,,,,,
-msg_017,,,,,
-msg_058,,,,,
-msg_026,,,,,
-msg_047,,,,,
-msg_046,,,,,
-msg_042,,,,,
-msg_079,,,,,
-msg_098,,,,,
-msg_037,,,,,
-msg_007,,,,,
-msg_085,,,,,
-msg_001,,,,,
-msg_021,,,,,
-msg_028,,,,,
-msg_012,,,,,
-msg_064,,,,,
-msg_103,,,,,
-msg_031,,,,,
-msg_057,,,,,
-msg_087,,,,,
-msg_067,,,,,
-msg_039,,,,,
-msg_082,,,,,
-msg_066,,,,,
-msg_049,,,,,
-msg_015,,,,,
-msg_051,,,,,
-msg_097,,,,,
-msg_089,,,,,
-msg_053,,,,,
-msg_059,,,,,
-msg_024,,,,,
-msg_072,,,,,
-msg_036,,,,,
-msg_076,,,,,
-msg_055,,,,,
-msg_102,,,,,
-msg_080,,,,,
-msg_093,,,,,
-msg_034,,,,,
-msg_035,,,,,
-msg_101,,,,,
-msg_041,,,,,
-msg_011,,,,,
-msg_110,,,,,
-msg_095,,,,,
-msg_074,,,,,
-msg_073,,,,,
-msg_054,,,,,
-msg_068,,,,,
-msg_100,,,,,
-msg_062,,,,,
-msg_096,,,,,
-msg_043,,,,,
-msg_077,,,,,
-msg_081,,,,,
-msg_025,,,,,
-msg_084,,,,,
-msg_022,,,,,
+msg_023,digest,business_update,"Verified bank update, user engages with these, but not urgent.",0.78,message_0243;message_0102;message_0101
+msg_091,mute,scam,Requests OTP/PIN/credentials or payment via link/QR in a financial context — scam pattern.,0.90,message_0238;message_0381
+msg_090,digest,personal,"Non-urgent, personal inquiry; user engages with similar.",0.78,message_0339
+msg_048,mute,scam,Requests OTP/PIN/credentials or payment via link/QR in a financial context — scam pattern.,0.90,message_0151;message_0152;message_0237
+msg_040,mute,forward,"Viral chain, user mutes similar, fatigued",0.81,message_0136;message_0135
+msg_075,notify,business_update,Verified ride update for user's active booking; user engages with these.,0.85,message_0206;message_0205
+msg_005,notify,personal,"User engages with similar messages, item held for them.",0.83,message_0401;message_0390;message_0065;message_0049;message_0332
+msg_104,mute,promotion,User consistently dismisses similar messages.,0.92,message_0224;message_0383;message_0050;message_0232;message_0335
+msg_069,mute,greeting,"Viral chain, muted group, and user dismisses similar messages.",0.83,message_0042;message_0177;message_0193;message_0080;message_0194
+msg_107,mute,scam,Requests OTP/PIN/credentials or payment via link/QR in a financial context — scam pattern.,0.90,none
+msg_070,mute,scam,Requests OTP/PIN/credentials or payment via link/QR in a financial context — scam pattern.,0.90,none
+msg_003,notify,business_update,"Verified sender, delivery update for active order, user engages with these.",0.89,message_0031;message_0400;message_0061;message_0267;message_0062
+msg_099,digest,personal,"Non-urgent, informational message for later review.",0.78,message_0227;message_0249;message_0055;message_0117;message_0118
+msg_008,digest,business_update,Post-purchase review request from verified sender; user engages but is fatigued.,0.78,message_0296;message_0072;message_0071
+msg_092,digest,business_update,"Verified sender, routine statement update; user engages but not urgent.",0.78,message_0346;message_0344
+msg_060,notify,urgent,Time-sensitive internship deadline from a trusted faculty admin.,0.92,message_0404;message_0284;message_0176;message_0375
+msg_004,notify,business_update,"Verified healthcare sender, upcoming appointment, user engages with these updates.",0.92,message_0245;message_0005;message_0246;message_0064;message_0063
+msg_030,mute,promotion,"User fatigued, muted similar messages, and group is muted.",0.92,message_0115;message_0335;message_0050;message_0116;message_0224
+msg_045,notify,urgent,Time-sensitive delivery at user's gate needing confirmation now.,0.89,message_0061
+msg_052,mute,scam,Sender uses a forged look-alike domain impersonating the brand — phishing.,0.94,message_0207;message_0208;message_0159
+msg_009,digest,personal,"Casual group chat, user engaged with similar; not urgent.",0.78,message_0074;message_0073
+msg_071,digest,personal,"Casual group chat, no action needed now.",0.78,message_0197;message_0198
+msg_016,mute,scam,Requests OTP/PIN/credentials or payment via link/QR in a financial context — scam pattern.,0.90,message_0024;message_0202;message_0184
+msg_065,digest,promotion,Verified retail sender with user's allowed promotions; user engages with these.,0.78,message_0261;message_0260;message_0186;message_0185
+msg_038,mute,forward,"Viral chain, user mutes similar messages",0.81,message_0131;message_0132
+msg_086,notify,event,"Verified travel business, user's upcoming trip details changed; user engages with these.",0.83,message_0222
+msg_014,mute,promotion,User opted out and fatigued with similar messages.,0.92,message_0258;message_0018;message_0017;message_0084;message_0083
+msg_094,mute,promotion,"User fatigued, historically dismisses similar offers",0.78,message_0356;message_0048;message_0357;message_0223;message_0203
+msg_029,digest,promotion,"User engages with similar marketplace posts, but not strongly.",0.68,message_0401;message_0113;message_0332;message_0066
+msg_105,mute,forward,"Viral chain, low-value, and user previously dismissed similar.",0.78,message_0373;message_0233
+msg_002,notify,urgent,"Direct @mention for pre-meeting prep, user engages with similar requests",0.89,message_0003;message_0266;message_0059;message_0169;message_0041
+msg_010,digest,business_update,Feedback request from a known cinema after a visit; user engages with these.,0.78,message_0011;message_0242;message_0075;message_0076
+msg_078,mute,scam,Requests OTP/PIN/credentials or payment via link/QR in a financial context — scam pattern.,0.90,message_0211;message_0212
+msg_013,digest,promotion,"Sale offer from a group member, not urgent or directly requested.",0.78,none
+msg_018,mute,scam,"Viral chain with voucher claim, resembles reported scams.",0.92,message_0026;message_0091;message_0092
+msg_044,mute,scam,Requests OTP/PIN/credentials or payment via link/QR in a financial context — scam pattern.,0.90,message_0143;message_0144
+msg_032,digest,personal,"Casual group chat, non-urgent, user engages with similar content.",0.78,message_0119;message_0285;message_0120;message_0374
+msg_106,digest,event,"User engages with similar dance updates, but not urgent enough to interrupt.",0.78,message_0376;message_0234
+msg_006,notify,event,"Time-sensitive, trusted admin reminder about maintenance payment deadline.",0.89,message_0097;message_0067;message_0029;message_0044;message_0098
+msg_109,mute,scam,Requests OTP/PIN/credentials or payment via link/QR in a financial context — scam pattern.,0.90,message_0151;message_0152;message_0237
+msg_108,mute,scam,Sender uses a forged look-alike domain impersonating the brand — phishing.,0.94,message_0094;message_0093;message_0236
+msg_019,mute,scam,Sender uses a forged look-alike domain impersonating the brand — phishing.,0.94,message_0277;message_0094;message_0093
+msg_088,mute,promotion,"Muted group, no mention, and user dismisses similar messages.",0.92,message_0224;message_0050;message_0115;message_0232;message_0335
+msg_056,notify,event,"Direct mention, time-sensitive family event update; user engages with these.",0.83,message_0359;message_0168;message_0226
+msg_027,digest,promotion,"Travel offer from known brand, user engages with these, but not urgent.",0.78,message_0272;message_0033;message_0007;message_0109;message_0110
+msg_050,digest,business_update,"Healthcare update, user engages, but unverified sender",0.78,message_0279;message_0278;message_0155;message_0156
+msg_083,digest,personal,Non-urgent request from a trusted sender; user engages but no rush.,0.78,message_0219
+msg_063,mute,scam,Requests OTP/PIN/credentials or payment via link/QR in a financial context — scam pattern.,0.90,message_0182;message_0181
+msg_033,digest,greeting,"Casual family greeting, not urgent.",0.78,message_0121;message_0122
+msg_061,mute,forward,Viral blessing chain in a muted group,0.92,message_0042;message_0177;message_0193;message_0080;message_0194
+msg_020,mute,scam,Suspicious link with urgent prompt; no trusted context.,0.92,message_0096;message_0095
+msg_017,mute,scam,Suspicious payment demand in a muted group with no mention; user dismisses similar.,0.83,message_0089;message_0090
+msg_058,mute,forward,"Viral chain, muted group, user dismisses similar content.",0.92,message_0241;message_0078;message_0124;message_0172;message_0040
+msg_026,mute,scam,Sender uses a forged look-alike domain impersonating the brand — phishing.,0.94,message_0032;message_0107;message_0108
+msg_047,notify,event,Time-sensitive building update from a trusted admin; user engages with these.,0.89,message_0149;message_0150;message_0001
+msg_046,mute,scam,Requests OTP/PIN/credentials or payment via link/QR in a financial context — scam pattern.,0.90,message_0148;message_0147;message_0024
+msg_042,notify,urgent,"Time-sensitive, affects user's property, from a trusted sender.",0.92,message_0140;message_0058
+msg_079,mute,scam,Requests OTP/PIN/credentials or payment via link/QR in a financial context — scam pattern.,0.90,none
+msg_098,notify,urgent,"Personal, timely decision needed, user engages with similar messages.",0.85,message_0226;message_0168;message_0359;message_0167
+msg_037,notify,urgent,"Time-sensitive, actionable group notice from a trusted sender; user engages with these.",0.89,message_0001;message_0029;message_0129;message_0215;message_0216
+msg_007,digest,event,"Society update, not urgent, from a trusted sender.",0.78,message_0070;message_0069
+msg_085,mute,scam,Sender uses a forged look-alike domain impersonating the brand — phishing.,0.94,none
+msg_001,notify,urgent,"Time-sensitive, affects user's flat, and user engages with similar updates.",0.89,message_0057;message_0240;message_0139
+msg_021,notify,urgent,Time-sensitive payment due today from a trusted sender; user engages with these.,0.89,message_0098;message_0068;message_0029;message_0044
+msg_028,mute,promotion,"Opted out, fatigued user, and history of dismissing similar messages.",0.92,message_0034;message_0112;message_0111;message_0402
+msg_012,mute,forward,"Viral chain, user dismisses similar messages",0.83,message_0079;message_0194;message_0178;message_0247;message_0080
+msg_064,mute,scam,"Asks for wallet and card details, similar to reported scams.",0.92,message_0201;message_0087;message_0183;message_0024;message_0202
+msg_103,digest,personal,"Casual, personal message with no urgent action needed.",0.78,message_0065;message_0390;message_0382;message_0049;message_0231
+msg_031,notify,urgent,Time-sensitive work request from a trusted admin sender; user engages with similar.,0.89,message_0117;message_0249;message_0118;message_0362
+msg_057,notify,urgent,Direct work request to the user with a live blocker; user engages with these.,0.85,message_0059;message_0169;message_0003;message_0266;message_0041
+msg_087,mute,promotion,"User fatigued, muted similar, and dismisses real estate messages.",0.92,message_0391;message_0223;message_0204;message_0358;message_0203
+msg_067,notify,urgent,Time-sensitive payment reminder from a trusted admin; user engages with these.,0.89,message_0098;message_0068;message_0029;message_0044;message_0097
+msg_039,notify,urgent,Direct request from a trusted sender with a time-sensitive deadline; user engages with these.,0.89,message_0364;message_0051;message_0403;message_0037;message_0255
+msg_082,notify,urgent,"Live incident, payments failing, and user engages with similar; sender is trusted admin.",0.89,message_0218;message_0397;message_0380
+msg_066,mute,promotion,"Opted out, fatigued user, and history of dismissing similar messages.",0.92,message_0402;message_0257;message_0187;message_0188;message_0052
+msg_049,notify,business_update,"Verified sender, return pickup today, user engages with these updates.",0.89,message_0154;message_0291;message_0153
+msg_015,mute,scam,"Asks for OTP, similar to past suspicious messages.",0.92,message_0199;message_0085;message_0023;message_0045
+msg_051,mute,promotion,"Opted out, fatigued user, and history of dismissing similar messages.",0.92,message_0257;message_0402;message_0103;message_0052;message_0157
+msg_097,digest,personal,"Personal chat, no action needed, user engages with these.",0.78,message_0167;message_0054;message_0225
+msg_089,notify,personal,Time-sensitive personal item retrieval,0.83,none
+msg_053,digest,forward,"Viral market update, not urgent, user engages with similar content.",0.78,message_0411;message_0161;message_0253
+msg_059,mute,scam,"Asks for sensitive info, similar to known scam patterns.",0.92,message_0213;message_0195;message_0023;message_0045
+msg_024,mute,promotion,"Opted out, fatigued user, and history of dismissing similar messages.",0.92,message_0257;message_0402;message_0103;message_0052;message_0157
+msg_072,mute,scam,Requests OTP/PIN/credentials or payment via link/QR in a financial context — scam pattern.,0.90,none
+msg_036,mute,scam,Sender uses a forged look-alike domain impersonating the brand — phishing.,0.94,message_0283;message_0127;message_0128
+msg_076,mute,scam,Sender uses a forged look-alike domain impersonating the brand — phishing.,0.94,message_0207;message_0208;message_0159
+msg_055,notify,urgent,Time-sensitive request from a family member needing a decision now.,0.83,message_0166;message_0387
+msg_102,notify,urgent,Time-sensitive production task needing user's attention now; user engages with these.,0.85,message_0371;message_0230
+msg_080,notify,urgent,Time-sensitive security notice from a trusted admin; user engages with these.,0.89,message_0216;message_0130;message_0190;message_0142;message_0180
+msg_093,digest,business_update,Verified logistics update during quiet hours; user engages but not urgent.,0.78,message_0349;message_0347;message_0348;message_0398;message_0387
+msg_034,mute,greeting,"User muted similar messages, low engagement in group.",0.78,message_0013;message_0014;message_0123;message_0171;message_0077
+msg_035,digest,promotion,"Verified sender, but promotional content; user engages but also dismisses similar.",0.78,message_0281;message_0125;message_0126;message_0127;message_0283
+msg_101,digest,personal,"Personal care message, not urgent, during quiet hours.",0.78,message_0370;message_0229;message_0268
+msg_041,digest,promotion,"Survey from known sender, but domain mismatch and marketing intent.",0.78,message_0137;message_0138
+msg_011,mute,greeting,"Viral chain, muted group, and user dismisses similar content.",0.83,message_0014;message_0013;message_0123;message_0171;message_0077
+msg_110,mute,scam,"Phishing attempt for login code, ignoring embedded instructions.",0.92,message_0238;message_0381
+msg_095,mute,scam,Requests OTP/PIN/credentials or payment via link/QR in a financial context — scam pattern.,0.90,message_0201;message_0087;message_0183
+msg_074,mute,scam,Highly similar to reported scams; user strongly dismisses these.,0.93,message_0203;message_0204;message_0223;message_0358;message_0389
+msg_073,mute,scam,Viral chain asking for sensitive info via link; user reported similar messages.,0.92,message_0201;message_0087;message_0183;message_0202;message_0184
+msg_054,mute,scam,Phishing loan link with urgent payment demand; user reported similar scams.,0.93,message_0163;message_0164;message_0389;message_0203;message_0358
+msg_068,digest,personal,"Social group chat, no urgency or action needed.",0.78,message_0191;message_0192
+msg_100,notify,urgent,"Time-sensitive request needing user action soon, with past engagement.",0.89,message_0362;message_0228;message_0117;message_0249;message_0055
+msg_062,digest,event,"Viral missing person alert; user engages with community posts, but quiet hours active.",0.78,message_0410;message_0043
+msg_096,notify,personal,"Personal, direct, found item notice",0.78,none
+msg_043,notify,urgent,"Time-sensitive, affects user's block, and user engages with admin notes.",0.83,message_0097;message_0067;message_0001;message_0129;message_0215
+msg_077,digest,event,"School event notice with consent form; user engages, but quiet hours.",0.78,message_0403;message_0051;message_0037
+msg_081,notify,event,Time-sensitive change to pickup location from a trusted sender.,0.92,message_0217;message_0058;message_0140;message_0106
+msg_025,notify,business_update,"Verified Amazon, active order update, user engages with these.",0.89,message_0239;message_0004;message_0105;message_0106
+msg_084,mute,promotion,"Opted out, fatigued user, and past similar messages dismissed.",0.92,message_0220;message_0391
+msg_022,mute,scam,Requests OTP/PIN/credentials or payment via link/QR in a financial context — scam pattern.,0.90,message_0099;message_0151;message_0100
