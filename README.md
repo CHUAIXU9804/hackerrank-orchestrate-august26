@@ -138,3 +138,6 @@ Before submitting, confirm:
 6.	For everything else, the Groq LLM model makes the nuanced call, reasoning over the text, context, past evidence, and return the response in JSON format
 7.	Validate and write results based on the input data into the output
 
+** AI Assisted Work**
+Claude Code has been used for testing and execution. I provide design and judgement calls to provide guidance and refine the system.
+
